@@ -13,5 +13,5 @@ docker push public.ecr.aws/c2m6n8k8/elasticsearch-arm:6.8
 To run it:
 
 ```
-docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node"  -e "xpack.ml.enabled=false" elyalvarado/elasticsearch:6.8
+docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elyalvarado/elasticsearch:6.8
 ```
